@@ -355,7 +355,7 @@ a:active{
 }
 
 
-.banner .title{
+.banner h1{
   font-family: var(--title-font-family);
   font-size: 64px;
   text-align: center;
@@ -1064,13 +1064,13 @@ a.product-content:hover{
   display: block;
 }
 
-.login-blank__header h1 {
+.login-blank__header h2 {
   color: #d1b389;
   font-size: 14px;
   padding-bottom: 15px;
 }
 
-.login-blank__header h2 {
+.login-blank__header h3 {
   text-align: center;
   color: #272526;
   font-size: 12px;
@@ -1176,14 +1176,14 @@ body.orange-shadow::before{
   display: block;
 }
 
-.cart-blank h1{
+.cart-blank h2{
   text-align: center;
   color: #d1b389;
   font-size: 26px; 
   padding-bottom: 20px; 
 }
 
-.cart-blank h2{
+.cart-blank h3{
   text-align: center;
   color: #272526;
   font-size: 18px;
@@ -1403,7 +1403,7 @@ body.orange-shadow::before{
     min-width: 0;
   }
 
-  .banner .title{
+  .banner h1{
     width: 100%;
     min-width: 350px;
     margin: 0 auto;
@@ -1551,7 +1551,7 @@ body.orange-shadow::before{
 
 @media (max-width: 768px){
 
-  .banner .title{
+  .banner h1{
     font-size: 40px;
   }
 
@@ -1729,7 +1729,7 @@ body.orange-shadow::before{
     margin: 0 auto;
   }
 
-  .banner .title {
+  .banner h1 {
     min-width: 0;
   }
   
