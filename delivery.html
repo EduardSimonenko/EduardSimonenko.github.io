@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/fonts-style.css" type="text/css">
+  <title>Delivery</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-content">
+
+      <a href="index.html" class="icon-logo header-logo"></a>
+
+      <nav class="header-site-nav">
+        <ul class="nav-items">
+          <li class="nav-item"><a href="index.html" class="nav-link">главная</a></li>
+          <li class="nav-item nav-item-menu"><a href="catalog.html" class="nav-link">каталог &#8681;</a>
+            <ul class="nav-item-submenu">
+              <li><a href="catalog.html">Для котов &#8680;</a>
+                <ul class="submenu-second-level">
+                  <li><a href="catalog.html">Добавки и лакомства</a></li>
+                  <li><a href="catalog.html">Для всех возрастов</a></li>
+                  <li><a href="catalog.html">Беззерновые</a></li>
+                </ul>
+              </li>
+              <li><a href="catalog.html">Для собак &#8680;</a>
+                <ul class="submenu-second-level">
+                  <li><a href="catalog.html">Маленьки породы</a></li>
+                  <li><a href="catalog.html">Крупные породы</a></li>
+                  <li><a href="catalog.html">Беззерновые</a></li>
+                  <li><a href="catalog.html">Для щенков</a></li>
+                  <li><a href="catalog.html">Специальные потребности</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="delivery.html" class="nav-link">доставка</a></li>
+          <li class="nav-item"><a href="aboutUs.html" class="nav-link">о нас</a></li>
+          <li class="nav-item"><a href="contacts.html" class="nav-link">контакты</a></li>
+        </ul>
+      </nav>
+
+      <ul class="navbar-items">
+        <li class="navbar-item"><a href="#" class="navbar-link icon-login">логин</a></li>
+        <li class="navbar-item"><a href="#" class="navbar-link icon-cart">корзина(0)</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main delivery-main">
+
+    <form action="" class="login-blank">
+      <span class="cross">&#10060;</span>
+      <div class="login-blank__header">
+        <h1>Войдите в свой аккаунт</h1>
+        <h2>Если у вас есть аккаунт, войдите под своим адресом электронной почты</h2>
+      </div>
+      <div class="login-form">
+        <input name="login" placeholder="Логин" class="login-form__login" type="text">
+        <input name="password" placeholder="Пароль" class="login-form__password" type="password">
+        <a href="#">Забыли логин или пароль?</a>
+        <button id="button" name="button" class="btn-send">Войти</button>
+        <a href="#" class="create-account">Создать аккаунт</a>
+      </div>
+    </form>
+
+
+    <div class="cart-blank">
+      <span class="cross cart-blank-cross">&#10060;</span>
+      <h1>Ваша корзина</h1>
+      <h2>У Вас нет товара в корзине</h2>
+      <a href="catalog.html" class="button cart-blank__btn">Перейти в магазин</a>
+    </div>
+
+    <section class="content-head">
+      <h1 class="content-head__title">Доставка</h1>
+      <p class="content-head__quote">Выбери свой способ доставки (наведи, чтобы узнать больше)</p>
+    </section>
+
+    <section class="delivery-methods">
+      <div class="delivery-method delivery-method_first">
+        <h3 class="delivery-method__title">По Минску</h3>
+        <div class="delivery-method__explanation">
+          <p>Товар на сумму более 100,00 рублей доставляется по городу Минску и в пределах кольцевой автодороги
+            БЕСПЛАТНО
+            до Вашего дома.
+            Время доставки Вы определяете сами, указав его либо в электронной форме заказа, либо указав его нашему
+            менеджеру по телефону.</p>
+          <p>Дополнительная плата взимается за:</p>
+          <ol>
+            <li>доставку товара стоимостью менее 100,00 рублей. Размер оплаты – 5,00 рублей;</li>
+            <li>доставку за пределы кольцевой автодороги платная, по стоимости Вас сможет сориентировать менеджер</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="delivery-method delivery-method_second">
+        <h3 class="delivery-method__title">По регионам</h3>
+        <div class="delivery-method__explanation">
+          <h3>ДОСТАВКА КУРЬЕРОМ до подъезда Вашего дома в любой точке Беларуси:</h3>
+          <ul>
+            <li>Срок доставки - 2-3 доставочных дня;</li>
+            <li>Оплата товара: наличными при получении, банковской картой при получении, банковской картой онлайн или
+              через систему ЕРИП.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="delivery-method delivery-method_third">
+        <h3 class="delivery-method__title">Самовывоз Минск</h3>
+        <div class="delivery-method__explanation">
+          <p><strong>Время работы:</strong> 9.00 до 18.00</p>
+          <p><strong>Адрес:</strong>Минск, ул. Вкусная, д.13</p>
+          <p>При получении заказа продиктуйте, пожалуйста, следующие сведения:</p>
+          <ol>
+            <li>Номер заказа, который можно увидеть при его оформлении через корзину сайта или уточнить у менеджера;
+            </li>
+            <li>Номер телефона, на который оформлен заказ.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="delivery-method delivery-method_fourth">
+        <h3 class="delivery-method__title">Самовывоз регионы</h3>
+        <div class="delivery-method__explanation">
+          <p><strong>Время работы:</strong> 9.00 до 18.00</p>
+          <p><strong>Адрес:</strong>
+          <ul>
+            <li>Брест, ул. Сладкая, д.13;</li>
+            <li>Гродно, ул. Нежная, д.13;</li>
+          </ul>
+          </p>
+          <p>При получении заказа продиктуйте, пожалуйста, следующие сведения:</p>
+          <ol>
+            <li>Номер заказа, который можно увидеть при его оформлении через корзину сайта или уточнить у менеджера;
+            </li>
+            <li>Номер телефона, на который оформлен заказ.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+
+
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="footer-content">
+
+      <nav class="footer-nav-block">
+        <h5 class="footer-nav-title">Покупай онлайн</h5>
+        <ul class="footer-nav-items">
+          <li class="footer-nav-item"><a href="index.html" class="footer-nav-link">главная</a></li>
+          <li class="footer-nav-item"><a href="catalog.html" class="footer-nav-link">каталог</a></li>
+          <li class="footer-nav-item"><a href="delivery.html" class="footer-nav-link">доставка</a></li>
+          <li class="footer-nav-item"><a href="aboutUs.html" class="footer-nav-link">о нас</a></li>
+          <li class="footer-nav-item"><a href="contacts.html" class="footer-nav-link">контакты</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav-block">
+        <h5 class="footer-nav-title">Категории товаров</h5>
+        <ul class="footer-nav-items">
+          <li class="footer-nav-item"><a href="" class="footer-nav-link">Для собак</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-link">Для котов</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav-block block3">
+        <h5 class="footer-nav-title">Свяжитесь с нами</h5>
+        <ul class="social-list">
+          <li class="social-list-item"><a href="#" class="icon-instagram"></a></li>
+          <li class="social-list-item"><a href="#" class="icon-facebook"></a></li>
+          <li class="social-list-item"><a href="#" class="icon-telegram"></a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="footer-data">
+      <p>&copy; 2022 <a href="https://github.com/EduardSimonenko/">EduardSimonenko</a></p>
+    </div>
+
+  </footer>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>

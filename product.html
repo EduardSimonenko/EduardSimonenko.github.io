@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/fonts-style.css" type="text/css">
+  <title>Catalog</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-content">
+
+      <a href="index.html" class="icon-logo header-logo"></a>
+
+      <nav class="header-site-nav">
+        <ul class="nav-items">
+          <li class="nav-item"><a href="index.html" class="nav-link">главная</a></li>
+          <li class="nav-item nav-item-menu"><a href="catalog.html" class="nav-link">каталог &#8681;</a>
+            <ul class="nav-item-submenu">
+              <li><a href="catalog.html">Для котов &#8680;</a>
+                <ul class="submenu-second-level">
+                  <li><a href="catalog.html">Добавки и лакомства</a></li>
+                  <li><a href="catalog.html">Для всех возрастов</a></li>
+                  <li><a href="catalog.html">Беззерновые</a></li>
+                </ul>
+              </li>
+              <li><a href="catalog.html">Для собак &#8680;</a>
+                <ul class="submenu-second-level">
+                  <li><a href="catalog.html">Маленьки породы</a></li>
+                  <li><a href="catalog.html">Крупные породы</a></li>
+                  <li><a href="catalog.html">Беззерновые</a></li>
+                  <li><a href="catalog.html">Для щенков</a></li>
+                  <li><a href="catalog.html">Специальные потребности</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="delivery.html" class="nav-link">доставка</a></li>
+          <li class="nav-item"><a href="aboutUs.html" class="nav-link">о нас</a></li>
+          <li class="nav-item"><a href="contacts.html" class="nav-link">контакты</a></li>
+        </ul>
+      </nav>
+
+      <ul class="navbar-items">
+        <li class="navbar-item"><a href="#" class="navbar-link icon-login">логин</a></li>
+        <li class="navbar-item"><a href="#" class="navbar-link icon-cart">корзина(0)</a></li>
+      </ul>
+
+      <div class="hamburger">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main  main-catalog">
+
+    <form action="" class="login-blank">
+      <span class="cross">&#10060;</span>
+      <div class="login-blank__header">
+        <h1>Войдите в свой аккаунт</h1>
+        <h2>Если у вас есть аккаунт, войдите под своим адресом электронной почты</h2>
+      </div>
+      <div class="login-form">
+        <input name="login" placeholder="Логин" class="login-form__login" type="text">
+        <input name="password" placeholder="Пароль" class="login-form__password" type="password">
+        <a href="#">Забыли логин или пароль?</a>
+        <button id="button" name="button" class="btn-send">Войти</button>
+        <a href="#" class="create-account">Создать аккаунт</a>
+      </div>
+    </form>
+
+
+    <div class="cart-blank">
+      <span class="cross cart-blank-cross">&#10060;</span>
+      <h1>Ваша корзина</h1>
+      <h2>У Вас нет товара в корзине</h2>
+      <a href="catalog.html" class="button cart-blank__btn">Перейти в магазин</a>
+    </div>
+
+    <div class="catalog-nav catalog-nav_collapsed">
+
+      <div class="catalog-nav-dog">
+
+        <span class="icon-bowl icon-dog-bowl"></span>
+        <span>Собака</span>
+
+        <ul>
+          <li><a href="catalog.html" class="catalog-nav-link active">ВЗРОСЛАЯ СОБАКА - МАЛЕНЬКИЕ ПОРОДЫ</a>
+          </li>
+          <li><a href="catalog.html" class="catalog-nav-link">СРЕДНИЕ И КРУПНЫЕ ПОРОДЫ</a></li>
+          <li><a href="catalog.html" class="catalog-nav-link">БЕЗЗЕРНОВЫЕ</a></li>
+          <li><a href="catalog.html" class="catalog-nav-link">ПИТАНИЕ ДЛЯ ЩЕНКОВ</a></li>
+          <li><a href="catalog.html" class="catalog-nav-link">СПЕЦИАЛЬНЫЕ ПОТРЕБНОСТИ</a></li>
+        </ul>
+
+      </div>
+
+      <div class="catalog-nav-cat">
+
+        <span class="icon-bowl icon-cat-bowl"></span>
+        <span>КОТ</span>
+
+        <ul>
+          <li><a href="catalog.html" class="catalog-nav-link">ДОБАВКИ И ЛАКОМСТВА</a></li>
+          <li><a href="catalog.html" class="catalog-nav-link">ПИТАНИЕ ДЛЯ КОШЕК ВСЕХ ВОЗРАСТОВ</a></li>
+          <li><a href="catalog.html" class="catalog-nav-link">БЕЗЗЕРНОВЫЕ</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+    <section class="product-card">
+      <div class="product-card__image">
+        <span class="slide-arrow back">&#8678;</span>
+        <img src="assets/img/Chicken1.jpg" alt="Chicken food for dog" class="product-card-image">
+        <span class="slide-arrow next">&#8680;</span>
+      </div>
+
+      <div class="product-card__price">
+        <h1>Курица</h1>
+        <h2>с индейкой для собак</h2>
+        <p>Беззерновая курица с индейкой и овощами</p>
+        <form action="#" class="product-form">
+          <div class="product-size">
+            <label><input type="radio" checked="checked" name="product-size" />2.5 кг</label>
+            <label><input type="radio" name="product-size" />9 кг</label>
+            <label><input type="radio" name="product-size" />18 кг</label>
+          </div>
+
+          <label class="product-quantity">Выбери количество<input type="number"
+              class="product-quantity product-quantity-input" step="1" min="1" max="" name="product-quantity"
+              value="0"></label>
+          <h2>&#36;37.00</h2>
+          <a class="button product-form-button">Добавить в корзину</a>
+          <p>или 4 беспроцентных платежа всего за $9,25</p>
+        </form>
+      </div>
+
+      <div class="product-card__description">
+        <p>Домашняя птица с нутом, чечевицей, овощами, витаминами, минералами и эфирными маслами. Научно
+          сбалансированный комплексный корм для всех собак. Концентрированная высокоэффективная диета особенно
+          полезна для всех животных с чувствительным желудком, аллергией или непереносимостью. Уникальное
+          соотношение питательных веществ в сочетании с очень высоким уровнем усвояемости делает его одним из
+          самых эффективных доступных кормов, подходящим для собак всех пород и возрастов. Этот корм также
+          содержит экстракты водорослей, чеснока, дрожжей для оптимального здоровья кишечника, а также
+          экстракт Юкки Шидигера.
+        </p>
+        <h2>Ингридиенты</h2>
+        <p>Курица, индейка, куриный жир, сладкий картофель, чечевица, полевой горох, нут, сладкий люпин,
+          тапиока, морковь, шпинат, петрушка, ламинария, чеснок, дрожжевой экстракт, витамины А, С, D3, Е, К,
+          В1, В2, B6, B12, ниацин, пантотенат, фолацин, биотин и натуральные органические кислоты, а также
+          добавленные минералы кальция, фосфора, натрия, меди, цинка, железа, марганца и йода. Также содержит
+          натуральные ароматизаторы, экстракт Юкки Шидигера и консервирован натуральным витамином Е и маслом
+          розмарина.
+        </p>
+        <h2>Суточная норма</h2>
+        <div class="feeding-rate">
+          <div>
+            <h3>Вес(в кг)</h3>
+            <ul>
+              <li>5 - 10кг</li>
+              <li>10 - 20кг</li>
+              <li>20 - 30кг</li>
+              <li>30 - 40кг</li>
+              <li>40 - 50кг</li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Количество(в гр/день)</h2>
+            <ul>
+              <li>80 - 110гр</li>
+              <li>110 - 140гр</li>
+              <li>140 - 180гр</li>
+              <li>180 - 220гр</li>
+              <li>220 - 280гр</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2>Вам также может понравиться</h2>
+        <div class="products-block">
+          <div class="product product_small">
+            <a class="product-content" href="product.html">
+              <div class="product__image product__image_1"></div>
+              <h2 class="product__title">Баранина</h2>
+              <h3 class="product__subtitle">С БАРАНИНОЙ, РИСОМ, ОВСЕМ И ОВОЩАМИ ДЛЯ СОБАК</h3>
+              <p class="product__description">Хорошо для всего, особенно для чувствительного желудка.</p>
+            </a>
+          </div>
+
+          <div class="product product_small">
+            <a class="product-content" href="product.html">
+              <div class="product__image product__image_2"></div>
+              <h2 class="product__title">ОКЕАНСКАЯ РЫБА МАЛЕНЬКИЕ КУСОЧКИ</h2>
+              <h3 class="product__subtitle">С РИСОМ ДЛЯ СОБАК</h3>
+              <p class="product__description">Дикая морская рыба с рисом, овсом и овощами.</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="footer-content">
+
+      <nav class="footer-nav-block">
+        <h5 class="footer-nav-title">Покупай онлайн</h5>
+        <ul class="footer-nav-items">
+          <li class="footer-nav-item"><a href="index.html" class="footer-nav-link">главная</a></li>
+          <li class="footer-nav-item"><a href="catalog.html" class="footer-nav-link">каталог</a></li>
+          <li class="footer-nav-item"><a href="delivery.html" class="footer-nav-link">доставка</a></li>
+          <li class="footer-nav-item"><a href="aboutUs.html" class="footer-nav-link">о нас</a></li>
+          <li class="footer-nav-item"><a href="contacts.html" class="footer-nav-link">контакты</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav-block">
+        <h5 class="footer-nav-title">Категории товаров</h5>
+        <ul class="footer-nav-items">
+          <li class="footer-nav-item"><a href="" class="footer-nav-link">Для собак</a></li>
+          <li class="footer-nav-item"><a href="" class="footer-nav-link">Для котов</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-nav-block block3">
+        <h5 class="footer-nav-title">Свяжитесь с нами</h5>
+        <ul class="social-list">
+          <li class="social-list-item"><a href="#" class="icon-instagram"></a></li>
+          <li class="social-list-item"><a href="#" class="icon-facebook"></a></li>
+          <li class="social-list-item"><a href="#" class="icon-telegram"></a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="footer-data">
+      <p>&copy; 2022 <a href="https://github.com/EduardSimonenko/">EduardSimonenko</a></p>
+    </div>
+
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
