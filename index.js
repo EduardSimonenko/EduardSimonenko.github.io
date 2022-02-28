@@ -145,5 +145,17 @@ function closeMenu(event) {
 }
 nav.addEventListener('click', closeMenu)
 
+const deliveryMethod = document.querySelectorAll('.delivery-method')
+const deliveryMethods = document.querySelector('.delivery-methods')
 
+function chooseDeliveryMethod(event) {
+  if (event.target.classList.contains('delivery-method')) {
+    deliveryMethod.forEach((el) => el.classList.remove('active'))
+    event.target.classList.add('active')
+  }
+}
+
+if (deliveryMethods) {
+  deliveryMethods.addEventListener('click', chooseDeliveryMethod)
+}
 

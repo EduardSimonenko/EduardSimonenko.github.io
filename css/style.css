@@ -835,23 +835,23 @@ a:active{
   color: white; 
 }
 
-.delivery-method:hover{
+.delivery-method.active{
   flex: 2;
 }
 
-.delivery-method:hover .delivery-method__title{
+.delivery-method.active .delivery-method__title{
   transform: none;
   margin: 100px 0 50px;
 }
 
-.delivery-method:hover .delivery-method__explanation{
+.delivery-method.active .delivery-method__explanation{
   display: block;
   border: 2px solid black;
   text-align: center;
   min-height: 280px;
 }
 
-.delivery-method:hover .delivery-method__explanation li{
+.delivery-method.active .delivery-method__explanation li{
   text-align: left;
 }
 
